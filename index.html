@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My WebPage</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<ul>
+		<li><a href="index.html"><em>Home</em></a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul> 
+	<h1>Assalomu alaykum!</h1>
+	<form>
+		<strong>Ismingizni kiriting:</strong> <input class="personal" type="text" size="7" name="firstName" placeholder="Ism"> <br />
+		<strong>Familyangizng kiriting:</strong> <input class="personal" type="text" size="7" name="lastName" placeholder="Familiya"> <br />
+		<strong>Tug'ilgan kuningiz:</strong> <input class="personal" type="text" name="birthday" placeholder="DD.MM.YYYY" size="9"> <br />
+		<br />
+
+		<strong>Turmush qurganmisiz?</strong> <br />
+		<input type="radio" name="married" value="ha">Ha
+		<input type="radio" name="married" value="yoq">Yo'q <br />
+		<br />
+
+		<strong>Qaysi tillarni bilasiz?</strong> <br />
+		<input type="checkbox" name="ingliz">Ingliz <br />
+		<input type="checkbox" name="rus">Rus <br />
+		<input type="checkbox" name="arab">Arab <br />
+		<input type="checkbox" name="nemis">Nemis <br />
+		<br />
+
+		<strong>Qaysi davlatdansiz</strong> <br />
+		<select>
+			<option value="uz">O'zbekiston</option>
+			<option value="tr">Turkiya</option>
+			<option value="ru">Rossiya</option>
+			<option value="us">Amerika</option>
+			<option value="uk">Buyuk Britaniya</option>
+		</select> <br />
+		<br />
+
+		<strong>Qaysi texnologiyalardan foydalanasiz</strong> <br />
+		<select size="3" multiple>
+			<option value="php">PHP</option>
+			<option value="python">Python</option>
+			<option value="cpp">C++</option>
+			<option value="javascript">JavaScript</option>
+			<option value="git">Git</option>
+			<option value="docker">Docker</option>
+			<option value="linux">Linux</option>
+			<option value="apache">Apache</option>
+			<option value="tor">Tor</option>
+		</select> <br />
+		<br />
+
+		<strong>O'zingiz haqingizda qisqacha</strong> <br />
+		<textarea cols="30" rows="5"></textarea> <br />
+		<input type="reset" value="Qaytarish">
+		<input type="submit" value="Jo'natish">
+	</form>
+
+</body>
+</html>
